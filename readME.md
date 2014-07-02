@@ -1,4 +1,4 @@
-# GOAL
+# About
 
 This repository holds all of my working (or completed) solutions to problems posted on [ProjectEuler](http://projecteuler.net).
 
