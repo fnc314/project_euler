@@ -14,5 +14,6 @@ I use these problems to practice Python and Ruby.  Also, these problems are a gr
 + [Euler Problem 6](http://projecteuler.net/problem=6)
 + [Euler Problem 7](http://projecteuler.net/problem=7)
 + [Euler Problem 8](http://projecteuler.net/problem=8)
++ [Euler Problem 10](http://projecteuler.net/problem=10)
 + [Euler Problem 20](http://projecteuler.net/problem=20)
 + [Euler Problem 80](http://projecteuler.net/problem=80)
