@@ -1,7 +1,24 @@
+def collatz(integer)
+  collatz_sequence = []
+  collatz_sequence.push(integer)
+
+  while integer != 1 do
+
+    if integer % 2 == 0
+      collatz(integer/2)
+    else
+      collatz((3 * integer) + 1)
+    end
+    
+  end
+
+  return collatz_sequence.length
+end
+
 def ep14
   i = 2
   answer = {}
-  while i < 1000000 do
+  while i < 15 do
     answer[i] = collatz(i)
     i += 1
   end
@@ -10,22 +27,5 @@ def ep14
 
 end
 
-
-def collatz(integer)
-  collatz_sequence = []
-  collatz_sequence.push(integer)
-
-  if integer % 2 == 0
-    i = (integer/2)
-    collatz_sequence.push(i)
-    collatz(i)
-  else
-    i = (3 * integer) + 1
-    collatz_sequence.push(i)
-    collatz(i)
-  end
-
-  return collatz_sequence.length
-end
 
 puts ep14
