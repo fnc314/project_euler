@@ -19,7 +19,7 @@ def triangle_number(n):
 
 def ep12():
   dict_of_factors = {}
-  for i in range(1, 1000000):
+  for i in range(1, 1000000): # Arbitrarily large upper bound
     num = triangle_number(i)
     if divisor_count(num) > 500:
       return num
