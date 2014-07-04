@@ -17,6 +17,7 @@ I use these problems to practice Python and Ruby mostly, but I also attept solut
 + [Euler Problem 10](http://projecteuler.net/problem=10) (Python)
 + [Euler Problem 12](http://projecteuler.net/problem=12) (Python)
 + [Euler Problem 13](http://projecteuler.net/problem=13) (Python/Ruby)
++ [Euler Problem 16](http://projecteuler.net/problem=16) (Ruby)
 + [Euler Problem 20](http://projecteuler.net/problem=20) (Ruby)
 + [Euler Problem 48](http://projecteuler.net/problem=48) (Python)
 + [Euler Problem 80](http://projecteuler.net/problem=80) (Ruby)
