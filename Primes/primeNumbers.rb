@@ -5,7 +5,7 @@ def isPrime(n)
   elsif n == 2
     return true
   else
-    max = Math.sqrt(n) - 1
+    max = Math.sqrt(n) + 1
     (3..max).step(2).each do |pd|
       if n % pd == 0
         return false
@@ -27,8 +27,7 @@ def primesLessThanN(n)
     prime_count += 1
   else
     prime_count += 1
-    possible_primes = (3..n).step(2).to_a
-    possible_primes.each do |pp|
+    (3..n).step(2).each do |pp|
       if isPrime(pp)
         prime_count += 1
       end

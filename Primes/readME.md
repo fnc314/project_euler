@@ -19,3 +19,18 @@ The file `primeNumbers.rb` contains two methods:
 ```ruby
 isPrime(n)
 ```
+iterates through all integers between `3` and `Math.sqrt(n) + 1` and tests the divisibilty of `n` by these integers.  To improve effeciency and to reduce the number of test cases, the method steps through the range by a factor of 2 (skipping all even entries)
+
+```ruby
+max = Math.sqrt(n) + 1
+(3..max).step(2)
+```
+
+2) The second method
+
+```ruby
+primesLessThanN(n)
+```
+is the inspiration for the prime number work.  The method calls on `isPrime(n)` on all odd numbers greater than or equal to `3` up to and including `n` itself.  Each element is tested for primality and a counter (`prime_count`) increases for every prime found.  The method returns the final value of `prime_count`.
+
+As `primeNumbers.rb` runs today (Thursday July 10, 2014), the script can effeciently test primality for numbers up to 20 digits in length in less than 1s.  The goal will be to maximize the functionality as much as possible (maybe by incorporating a hard-coded preset collection of primes from which to start and with which to limit the necessary computations for even larger input values).  As always, I plan on creating ports in other languages of the same functionalities found here.
