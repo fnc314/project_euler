@@ -6,8 +6,7 @@ def isPrime(n)
     return true
   else
     max = Math.sqrt(n) - 1
-    possible_divisors = (3..max).step(2).to_a
-    possible_divisors.each do |pd|
+    (3..max).step(2).each do |pd|
       if n % pd == 0
         return false
       end
@@ -51,7 +50,7 @@ end
 # puts isPrime(23) # true
 # puts isPrime(17) # true
 puts Time.now.to_i
-puts isPrime(1324354657098753) # false => 16 digit number in approx. 1s
+puts isPrime(13243546570987531917) # false => 20 digit number in under 1s
 puts Time.now.to_i
 # puts "\\/" * 10
 # puts Time.now.to_i
