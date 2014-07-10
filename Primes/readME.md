@@ -9,3 +9,13 @@ This sub-repository (a derivative of my [Project Euler repository](https://githu
 ## Current Techniques
 
 Currently it is possible to use Python libraries like [SymPy](http://www.sympy.org/) to generate a [Sieve of Eratosthenes](http://www.wikipedia.org/wiki/Sieve_of_Eratosthenes) to an arbitrary length.  This will generate a grouping of primes and can be useful for determining the primality of significantly larger numbers.
+
+### Ruby
+
+The file `primeNumbers.rb` contains two methods:
+
+1) The first method
+
+```ruby
+isPrime(n)
+```
