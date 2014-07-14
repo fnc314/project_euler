@@ -6,7 +6,7 @@ I use these problems to practice Python and Ruby mostly, but I also attept solut
 
 # Completed Problems
 
-+ [Euler Problem 1](http://projecteuler.net/problem=1) (Python)
++ [Euler Problem 1](http://projecteuler.net/problem=1) ([Python](https://github.com/fnc314/project_euler/blob/master/EulerProblem1.py))
 + [Euler Problem 2](http://projecteuler.net/problem=2) (Python)
 + [Euler Problem 3](http://projecteuler.net/problem=3) (Python)
 + [Euler Problem 4](http://projecteuler.net/problem=4) (Python)
