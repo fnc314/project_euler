@@ -1,31 +1,39 @@
-def collatz(integer)
-  collatz_sequence = []
-  collatz_sequence.push(integer)
+# n => n/2 (n even)
+# n => 3n + 1 (n odd)
 
-  while integer != 1 do
+def collatz_sequence(arr=[])
+  # arr is an array whose sole element is the first term of the sequence
+  # the function will continuously add terms to this array (until arriving at 1)
+  # when 1 is computed the function will return the array
 
-    if integer % 2 == 0
-      collatz(integer/2)
-    else
-      collatz((3 * integer) + 1)
-    end
-    
+  integer = arr.last
+  if integer == 1
+    return arr
   end
 
-  return collatz_sequence.length
+  if integer % 2 == 0
+    integer = integer / 2
+    arr.push(integer)
+    collatz_sequence(arr)
+  else
+    integer = (3 * integer) + 1
+    arr.push(integer)
+    collatz_sequence(arr)
+  end
+
 end
+
+# print collatz_sequence([14000])
 
 def ep14
-  i = 2
-  answer = {}
-  while i < 15 do
-    answer[i] = collatz(i)
-    i += 1
+  collatz_collection = {}
+  (2...1000000).each do |i|
+    collatz_collection[i] = collatz_sequence([i]).length
   end
 
-  return answer
-
+  return collatz_collection.key(collatz_collection.values.max)
 end
 
-
 puts ep14
+
+# CORRECT
