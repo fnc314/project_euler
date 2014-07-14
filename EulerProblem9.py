@@ -12,7 +12,7 @@
 # FIND a*b*c
 
 # NOTES:
-# -use math.modf(x) to determine if result of math.sqrt(x) is an Integer
+# -use math.modf(x) to determine if result of math.sqrt(x) is an Integer => only then find sum
 # --returns a tuple accessible by index
 # ---if math.modf(x)[0] == 0.0
 
