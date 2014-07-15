@@ -2,7 +2,7 @@ def fileReader()
   grid = Array.new()
 
   File.open('EulerProblem11.txt','r') do |file|
-    while ( line = file.gets)
+    while ( line = file.gets )
       row = line.split(" ")
       row.map! {|r| r.to_i}
       grid.push(row)
@@ -58,7 +58,7 @@ def four_term_products(grid)
         end
 
       else
-        if c < 16 # The last 3 rows can only compute the RIGHT product until reaching c = 17, at which case nil is returned by grid[r][c]
+        if c < 16 # The last 3 rows can only compute the RIGHT product until reaching c = 17, at which case nil is returned by grid[r][c+3]
           # RIGHT product
           products.push(grid[r][c] * grid[r][c+1] * grid[r][c+2] * grid[r][c+3])
         end
