@@ -1,0 +1,34 @@
+one = 3 letters
+two = 3 letters
+three = 5 letters
+four = 4 letters
+five = 4 letters
+six = 3 letters
+seven = 5 letters
+eight = 5 letters
+nine = 4 letters
+ten = 3 letters
+eleven = 6 letters
+twelve = 6 letters
+thirteen = 8 letters
+fourteen = 8 letters
+fifteen = 7 letters
+sixteen = 7 letters
+seventeen = 9 letters
+eighteen = 8 letters
+nineteen = 8 letters
+twenty = 6 letters
+twenty one = 6 + 3 = 9 letters # PATTERN
+...
+thirty = 6 letters
+forty = 5 letters
+fifty = 5 letters
+sixty = 5 letters
+seventy = 7 letters
+eighty = 6 letters
+ninety = 6 letters
+one hundred = 10 letters
+(hundred = 7 letters) # PATTERN
+...
+one thousand = 11 letters
+(thousand = 8 letters) # PATTERN
