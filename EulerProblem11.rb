@@ -19,7 +19,7 @@ end
 
 def function(grid,r,c,dir)
   '''
-  grid = array of arrays } 20 arrays, 20 elements each, 400 element grid
+  grid = array of arrays >> 20 arrays, 20 elements each, 400 element grid
   r, c = integers representing row and column indecies 0 <= r,c < 20
   dir = string for direction on the grid to travel to gather terms for product
   '''
