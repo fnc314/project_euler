@@ -4,7 +4,7 @@ This repository holds all of my working (or completed) solutions to problems pos
 
 I use these problems to practice Python and Ruby mostly, but I also attept solutions with other languages.  Also, these problems are a great way to be reintroduced to long-forgotten Mathematics and meet new topics.
 
-# Completed Problems
+# Completed Problems (18/476)
 
 + [Euler Problem 1](http://projecteuler.net/problem=1) ([Python](https://github.com/fnc314/project_euler/blob/master/EulerProblem1.py))
 + [Euler Problem 2](http://projecteuler.net/problem=2) ([Python](https://github.com/fnc314/project_euler/blob/master/EulerProblem2.py))
