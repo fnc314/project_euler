@@ -72,7 +72,7 @@ def four_term_products(grid)
           products.push(multiplier(grid,r,c,"DL")) # DOWN-LEFT product
           products.push(multiplier(grid,r,c,"D")) # DOWN product
           products.push(multiplier(grid,r,c,"DR")) # DOWN-RIGHT product
-          products.push(multiplier(grid,r,c,"R")) # Right product
+          products.push(multiplier(grid,r,c,"R")) # RIGHT product
         elsif c > 16
           products.push(multiplier(grid,r,c,"L")) # LEFT product
           products.push(multiplier(grid,r,c,"DL")) # DOWN-LEFT product
@@ -81,8 +81,11 @@ def four_term_products(grid)
 
       elsif r > 16 # r = 17, 18, 19 (only right products)
 
-        if c
+        if c < 17 # c = 0, 1, 2, ..., 14, 15, 16
+          products.push(multiplier(grid,r,c,"R")) # RIGHT product
+        end
 
+      end
       c += 1
     end
     r += 1
