@@ -16,6 +16,7 @@ I use these problems to practice Python and Ruby mostly, but I also attept solut
 + [Euler Problem 8](http://projecteuler.net/problem=8) ([Ruby](https://github.com/fnc314/project_euler/blob/master/EulerProblem8.rb))
 + [Euler Problem 9](http://projecteuler.net/problem=9) ([Python](https://github.com/fnc314/project_euler/blob/master/EulerProblem9.py))
 + [Euler Problem 10](http://projecteuler.net/problem=10) ([Python](https://github.com/fnc314/project_euler/blob/master/EulerProblem10.py))
++ [Euler Problem 11](http://projecteuler.net/problem=11) ([Ruby](https://github.com/fnc314/project_euler/blob/master/EulerProblem11.rb))
 + [Euler Problem 12](http://projecteuler.net/problem=12) ([Python](https://github.com/fnc314/project_euler/blob/master/EulerProblem12.py))
 + [Euler Problem 13](http://projecteuler.net/problem=13) ([Python](https://github.com/fnc314/project_euler/blob/master/EulerProblem13.py)/[Ruby](https://github.com/fnc314/project_euler/blob/master/EulerProblem13.rb))
 + [Euler Problem 14](http://projecteuler.net/problem=14) ([Ruby](https://github.com/fnc314/project_euler/blob/master/EulerProblem14.rb))
