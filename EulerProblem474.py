@@ -13,10 +13,12 @@ def factors_of(n):
 
 def factor_compare(n,d):
   factors = factors_of(n)
-  factor_last_digits = re.compile(str(d))
-
+  factor_last_digits = re.compile(str([d]) + '\Z')
+  matching_factors = 0
   for i in factors:
-    string_i = str(i)
+    if factor_last_digits.search(str(i)):
+      matching_factors += 1
+  return matching_factors
 
 
 # First use `expr = re.compile(str(d))` to set up `d` to be the RegEx used when examining factors
